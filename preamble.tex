@@ -1,5 +1,5 @@
 \documentclass[a5paper,10pt]{book}
-\usepackage{graphicx,amssymb,amsmath,lmodern,wrapfig,csquotes,savetrees,
+\usepackage{graphicx,amssymb,amsmath,lmodern,wrapfig,csquotes,% savetrees,
 	hyperref,multicol,bookmark,amsthm,thmtools,mathtools,array,
 	tkz-euclide,gensymb,twemojis,lettrine}
 % \usepackage[lighttt]{lmodern}
@@ -14,9 +14,12 @@
 \renewcommand{\chaptername}{Глава}
 \addto\captionsenglish{\renewcommand{\chaptername}{Глава}}
 \addto\captionsenglish{\renewcommand{\contentsname}{Содержание}}
+\addto\captionsenglish{\renewcommand{\figurename}{Рисунок}}
 
 \theoremstyle{definition}
 \newtheorem{definition}{Определение}
+\theoremstyle{corollary}
+\newtheorem{corollary}{Следствие}
 \theoremstyle{theorem}
 \newtheorem{theorem}{Теорема}
 \renewcommand{\proofname}{Доказательство}
